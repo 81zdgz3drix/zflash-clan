@@ -45,27 +45,22 @@ export default function Footer() {
         "
       />
 
-
       <motion.div
         initial={{
-          opacity:0,
-          y:50
+          opacity: 0,
+          y: 50,
         }}
-
         whileInView={{
-          opacity:1,
-          y:0
+          opacity: 1,
+          y: 0,
         }}
-
         viewport={{
-          once:false,
-          amount:0.3
+          once: false,
+          amount: 0.3,
         }}
-
         transition={{
-          duration:0.8
+          duration: 0.8,
         }}
-
         className="
           relative
           z-10
@@ -102,19 +97,17 @@ export default function Footer() {
         </p>
 
 
-
         <div
           className="
             flex
-            flex-col
-            sm:flex-row
             justify-center
-            gap-4
           "
         >
 
           <a
-            href="#"
+            href="https://discord.com/users/1312787469573296162"
+            target="_blank"
+            rel="noopener noreferrer"
             className="
               rounded-2xl
               bg-white
@@ -124,27 +117,10 @@ export default function Footer() {
               font-bold
               transition
               hover:scale-105
+              hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]
             "
           >
             Discord
-          </a>
-
-
-          <a
-            href="#"
-            className="
-              rounded-2xl
-              border
-              border-white/20
-              px-8
-              py-4
-              font-bold
-              transition
-              hover:bg-white
-              hover:text-black
-            "
-          >
-            Telegram
           </a>
 
         </div>
