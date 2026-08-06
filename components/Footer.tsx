@@ -89,11 +89,25 @@ export default function Footer() {
             sm:text-xl
             max-w-2xl
             mx-auto
-            mb-10
+            mb-6
           "
         >
           Присоединяйся к рейд-клану и развивайся
           вместе с нашей командой.
+        </p>
+
+
+        <p
+          className="
+            text-gray-600
+            text-sm
+            max-w-xl
+            mx-auto
+            mb-10
+          "
+        >
+          Кнопка ниже ведёт на Discord профиль лидера.
+          Напиши ему для проверки и получения доступа в клан.
         </p>
 
 
@@ -120,7 +134,7 @@ export default function Footer() {
               hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]
             "
           >
-            Discord
+            Discord профиль
           </a>
 
         </div>
